@@ -1,26 +1,54 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="Styles/styles.css">
-    <title>Julian Molina</title>
+    <link rel="stylesheet" href="JavaScript/Java.js">
+    <title>Julian Molina - Portafolio</title>
 </head>
 <body>
     <header class="navindex">
         <nav>
-            
+            <ul>
+                <li><a href="index.html">Sobre mí</a></li>
+                <li><a href="#proyectos">Proyectos</a></li>
+                <li><a href="#habilidades">Habilidades</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
         </nav>
     </header>
 
-    <header class="content1">
-        <title>¿Quien soy?</title>
-        <p>Soy actualmente estudiante de Ingenieria de Sistemas, curso el 
-            QUINTO semestre en la Universidad de Santander(UDES) en la ciudad de Cúcuta.</p>
-    </header>
+    <section id="quien-soy" class="content1">
+        <h1>¿Quién soy?</h1>
+        <p>Soy estudiante de Ingeniería de Sistemas, cursando el quinto semestre 
+            en la Universidad de Santander (UDES) en la ciudad de Cúcuta.</p>
+    </section>
 
-    <Footer>
-        <p>Julian Molina - 2024</p>
-    </Footer>
+    <section id="proyectos">
+        <h2>Mis Proyectos</h2>
+        <div class="slider">
+            <div class="slide active">
+                <h3>Proyecto 1</h3>
+                <p>Descripción del proyecto 1...</p>
+            </div>
+            <div class="slide">
+                <h3>Proyecto 2</h3>
+                <p>Descripción del proyecto 2...</p>
+            </div>
+            <!-- Añade más slides según sea necesario -->
+        </div>
+        <button id="prev">Anterior</button>
+        <button id="next">Siguiente</button>
+    </section>
+
+    <section id="habilidades">
+        <h2>Habilidades</h2>
+        <!-- Lista tus habilidades -->
+    </section>
+
+    <footer>
+        <p>&copy; Julian Molina - 2024</p>
+    </footer>
 </body>
 </html>
